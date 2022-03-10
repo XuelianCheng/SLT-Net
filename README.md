@@ -9,7 +9,7 @@ SLT-Net: we propose a new video camouflaged detection (VCOD) framework that can 
 
 **Summary.** This repository contains the source code, prediction results, and evaluation toolbox in `eval` folder.
 
-**Demo_videos.** In `Videos` folder, we demoenstate the video results of our SLT-Net, and two top-performing baselines (including SINet, RCRNet) on MoCA-Mask test dataset.
+**Demo_videos.** In `Videos` folder, we demonstrate the video results of our SLT-Net, and two top-performing baselines (including SINet, RCRNet) on MoCA-Mask test dataset.
 
 **Results.** The results of all compared methods and the whole MoCA-Mask datset could be found [here](https://drive.google.com/drive/folders/1iQyFXCGhknRzsXk9m5KBnnGeig7F1Snm?usp=sharing). 
 
@@ -85,7 +85,7 @@ Change the first column path in file `create_link.sh` with your actual dataset l
 ```
 
 **Prediction.** 
-You can evaluate a trained model using `prediction.sh` for each dataset, that would help you generate *.png images correspoding to different datasets.
+You can evaluate a trained model using `prediction.sh` for each dataset, which would help you generate *.png images corresponding to different datasets.
 ```shell
 sh test_video_moca-mask.sh
 sh test_video_cad2016.sh
@@ -94,7 +94,7 @@ sh test_video_cod10k.sh
 
 
 **Evaluation.** 
-Please run the file `main_CAD.m` or `main_MoCA.m`  in `eval` folder to evaluate your model. You could also simply download the images via this [Link](https://drive.google.com/drive/folders/1iQyFXCGhknRzsXk9m5KBnnGeig7F1Snm?usp=sharing) to reach the results reported in our paper. Or download ur pre-train model via this Link: [snapshot](https://drive.google.com/file/d/1_u4dEdxM4AKuuh6EcWHAlo8EtR7e8q5v/view?usp=sharing). 
+Please run the file `main_CAD.m` or `main_MoCA.m`  in `eval` folder to evaluate your model. You could also simply download the images via this [Link](https://drive.google.com/drive/folders/1iQyFXCGhknRzsXk9m5KBnnGeig7F1Snm?usp=sharing) to reach the results reported in our paper. Or download our pre-train model via this link: [snapshot](https://drive.google.com/file/d/1_u4dEdxM4AKuuh6EcWHAlo8EtR7e8q5v/view?usp=sharing). 
 
 
 **Acknowledgements.** 
