@@ -18,7 +18,7 @@ SLT-Net: we propose a new video camouflaged detection (VCOD) framework that can 
 
 <p align="center">
     <img src="./imgs/overall.png" width='523' height='200' /> <br />
-    <em> <font size=9>
+    <em> <font size=6>
     Figure 1: The overall pipeline of the SLT-Net. The SLT-Net consists of a short-term detection module and a long-term refinement module. The short-term detection module takes a pair of consecutive frames and predicts the camouflaged object mask for the reference frame. The long-term refinement module takes T predictions from the short-term detection module along with their corresponding referenced frames to generate the final predictions.
     </font>
     </em>
