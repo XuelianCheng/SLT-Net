@@ -1,7 +1,7 @@
 clear; close; clc;
 % set the path of sal/gt/results
 salDir = '../res/CAD2016/'; %MoCA_pseudo
-Models = {'MoCA_pvtv2_1e-6_epoch_61'};  
+Models = {'Ours_long_term'};  
 %'
 gtDir = '../dataset/CamouflagedAnimalDataset/'; 
 Datasets = {'new_gt'}; %sequences

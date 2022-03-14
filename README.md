@@ -86,9 +86,8 @@ Change the first column path in file `create_link.sh` with your actual dataset l
 **Prediction.** 
 You can evaluate a trained model using `prediction.sh` for each dataset, which would help you generate *.png images corresponding to different datasets.
 ```shell
-sh test_video_moca-mask.sh
-sh test_video_cad2016.sh
-sh test_video_cod10k.sh
+sh test_video.sh
+sh test_video_long_term.sh
 ```
 
 
