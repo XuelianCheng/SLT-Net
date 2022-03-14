@@ -1,6 +1,6 @@
 ## SLT-Net
 
-This repository contains the code for our CVPR 2022 paper `Implicit Motion Handling for Video Camouflaged Object Detection` [[CVPR 2022]()] [[arXiv]()] 
+This repository contains the code for our CVPR 2022 paper `Implicit Motion Handling for Video Camouflaged Object Detection` [[CVPR 2022]()] [[arXiv]()] [[Project Page](https://xueliancheng.github.io/SLT-Net-project/)] 
 
 SLT-Net: we propose a new video camouflaged detection (VCOD) framework that can use both short-term dynamics and long-term temporal consistency to detect camouflaged objects from video frames.
 <!-- ![alt text](./imgs/overall.png) -->
