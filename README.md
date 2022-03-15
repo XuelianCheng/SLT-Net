@@ -31,14 +31,12 @@ a single NVIDIA V100 GPU of 32 GB Memory.
 ## 3. Preparation
 
 **Requirements.** 
-
 1. Python 3.9.*
 2. CUDA 11.1
 3. PyTorch 
 4. TorchVision 
 
 **Install.** 
-
 Create a  virtual environment and activate it.
 ```shell
 conda create -n SLTnet python=3.8
@@ -67,7 +65,6 @@ python setup.py build develop
 ```
 
 **Dataset.** 
-
 To evaluate/train our SLT-Net network, you will need to download the required datasets. Noting that, If you want to use our Pseudo labels, please download via [MoCA-Mask-Pseudo].
 
 * [MoCA-Mask](https://drive.google.com/file/d/1FB24BGVrPOeUpmYbKZJYL5ermqUvBo_6/view?usp=sharing), [MoCA-Mask-Pseudo](https://drive.google.com/file/d/1a7ESYE30q5MHsmrfTasNEOsbjdpZdgz5/view?usp=sharing)
