@@ -102,3 +102,13 @@ Please find more information about the original MoCA dataset [1] [Link](https://
 Betrayed by Motion: Camouflaged Object Discovery via Motion Segmentation 
 Asian Conference on Computer Vision, 2020
 
+**Citing**
+If you find this code useful, please consider to cite our work.
+
+@inproceedings{cheng2022implicit,
+  title={Implicit Motion Handling for Video Camouflaged Object Detection},
+  author={Cheng, Xuelian and Xiong, Huan and Fan, Deng-Ping and Zhong, Yiran and Harandi, Mehrtash and Drummond, Tom and Ge, Zongyuan},
+  booktitle={CVPR},
+  year={2022}
+}
+
