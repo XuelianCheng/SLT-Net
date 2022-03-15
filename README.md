@@ -28,7 +28,10 @@ a single NVIDIA V100 GPU of 32 GB Memory.
 
 > Note that our model also supports low memory GPU, which means you should lower the batch size.
 
+## 3. Preparation
+
 **Requirements.** 
+
 1. Python 3.9.*
 2. CUDA 11.1
 3. PyTorch 
@@ -46,9 +49,7 @@ The code has been tested with PyTorch 1.9 and Cuda 11.1.
 conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
 conda install -c conda-forge timm
 ```
-
 Install MMCV + MMSegmentation
-
 
 Follow the instructions [here](https://mmcv.readthedocs.io/en/latest/get_started/installation.html). MMCV and MMSegmentation are required for training the transformer encoder. A quick installation example:
 
@@ -64,7 +65,6 @@ Please could find more details in [Github](https://github.com/GewelsJI/PNS-Net).
 cd ./lib/ref_video/PNS
 python setup.py build develop
 ```
-
 
 **Dataset.** 
 
@@ -83,6 +83,8 @@ Change the first column path in file `create_link.sh` with your actual dataset l
     ├── COD10K
 ```
 
+## 3. Results
+
 **Prediction.** 
 You can evaluate a trained model using `prediction.sh` for each dataset, which would help you generate *.png images corresponding to different datasets.
 ```shell
@@ -90,10 +92,8 @@ sh test_video.sh
 sh test_video_long_term.sh
 ```
 
-
 **Evaluation.** 
 Please run the file `main_CAD.m` or `main_MoCA.m`  in `eval` folder to evaluate your model. You could also simply download the images via this [Link](https://drive.google.com/drive/folders/1iQyFXCGhknRzsXk9m5KBnnGeig7F1Snm?usp=sharing) to reach the results reported in our paper. Or download our pre-trained model via this link: [snapshot](https://drive.google.com/file/d/1_u4dEdxM4AKuuh6EcWHAlo8EtR7e8q5v/view?usp=sharing). 
-
 
 **Acknowledgements.** 
 Please find more information about the original MoCA dataset [1] [Link](https://www.robots.ox.ac.uk/~vgg/data/MoCA/).
@@ -102,7 +102,8 @@ Please find more information about the original MoCA dataset [1] [Link](https://
 Betrayed by Motion: Camouflaged Object Discovery via Motion Segmentation 
 Asian Conference on Computer Vision, 2020
 
-**Citing**
+## 4. Citing
+
 If you find this code useful, please consider to cite our work.
 
 @inproceedings{cheng2022implicit,
