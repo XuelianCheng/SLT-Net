@@ -79,6 +79,7 @@ Change the first column path in file `create_link.sh` with your actual dataset l
     ├── CAD2016
     ├── COD10K
 ```
+Notting that for CAD2016 dataset, the original ground-truth maps were labelled as 1/2 index for each pixel. You need to transfer it as 0/255. We also provide the transformed new gt [here](https://drive.google.com/file/d/1LwswF3axQ0BSC6DllTpyL77Ktruy-6M6/view?usp=sharing) at your ease.
 
 ## 3. Results
 
