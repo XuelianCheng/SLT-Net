@@ -79,7 +79,7 @@ Change the first column path in file `create_link.sh` with your actual dataset l
     ├── CAD2016
     ├── COD10K
 ```
-Notting that for CAD2016 dataset, the original ground-truth maps were labelled as 1/2 index for each pixel. You need to transfer it as 0/255. We also provide the transformed new gt [here](https://drive.google.com/file/d/1LwswF3axQ0BSC6DllTpyL77Ktruy-6M6/view?usp=sharing) at your ease.
+Notting that for CAD2016 dataset, the original ground-truth maps were labelled as 1/2 index for each pixel. You need to transfer it as 0/255. We also provide the transformed new gt [here](https://drive.google.com/file/d/1LwswF3axQ0BSC6DllTpyL77Ktruy-6M6/view?usp=sharing) at your ease. 
 
 ## 3. Results
 
@@ -91,7 +91,7 @@ sh test_video_long_term.sh
 ```
 
 **Evaluation.** 
-Please run the file `main_CAD.m` or `main_MoCA.m`  in `eval` folder to evaluate your model. You could also simply download the images via this [Link](https://drive.google.com/drive/folders/1iQyFXCGhknRzsXk9m5KBnnGeig7F1Snm?usp=sharing) to reach the results reported in our paper. Or download our pre-trained model via this link: [snapshot](https://drive.google.com/file/d/1_u4dEdxM4AKuuh6EcWHAlo8EtR7e8q5v/view?usp=sharing). 
+Please run the file `main_CAD.m` or `main_MoCA.m`  in `eval` folder to evaluate your model. You could also simply download the images via this [Link](https://drive.google.com/drive/folders/1iQyFXCGhknRzsXk9m5KBnnGeig7F1Snm?usp=sharing) to reach the results reported in our paper. Or download our pre-trained model via this link: [snapshot](https://drive.google.com/file/d/1_u4dEdxM4AKuuh6EcWHAlo8EtR7e8q5v/view?usp=sharing). [If you download it before 7 Sep 2022, please replace it with the new version. The Net_epoch_cod10k.pth in previous snapshpt is wrong with Resnet pretrained weights.]
 
 **Acknowledgements.** 
 Please find more information about the original MoCA dataset [1] [Link](https://www.robots.ox.ac.uk/~vgg/data/MoCA/).
